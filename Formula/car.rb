@@ -1,28 +1,28 @@
 class Car < Formula
   desc "Common Agent Runtime — deterministic execution layer for AI agents"
   homepage "https://github.com/Parslee-ai/car-releases"
-  version "0.3.1"
+  version "0.3.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Parslee-ai/car-releases/releases/download/v0.3.1/car-darwin-arm64.tar.gz"
-      sha256 "9a11d0318af522dd1b5ab297fd34accbe135aead2f9eabfe9335c25628d7a591"
+      url "https://github.com/Parslee-ai/car-releases/releases/download/v0.3.2/car-darwin-arm64.tar.gz"
+      sha256 "a466fbc290671283b539113482a208d5fba8e924e871ec89bc4902dcd5b259da"
     end
     on_intel do
-      url "https://github.com/Parslee-ai/car-releases/releases/download/v0.3.1/car-darwin-x64.tar.gz"
-      sha256 "a9cfbc2a2ca5115aae2447eddd9c8c2c31a67935f5d62738b619c4dbbe8a8ef7"
+      url "https://github.com/Parslee-ai/car-releases/releases/download/v0.3.2/car-darwin-x64.tar.gz"
+      sha256 "111b12f1c252e620223509fa3924e40fd916eb153c3c41f3772279677fb42ecb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Parslee-ai/car-releases/releases/download/v0.3.1/car-linux-arm64-gnu.tar.gz"
-      sha256 "ef59813b1e2bdc6a3f5aa4a3a07e48531127fca0f6d15794e322e66f2b808bd8"
+      url "https://github.com/Parslee-ai/car-releases/releases/download/v0.3.2/car-linux-arm64-gnu.tar.gz"
+      sha256 "5da274d92a3bc98d0e0a8c4dc8d7b35b194e71cb18612df3e582ee45bc267f09"
     end
     on_intel do
-      url "https://github.com/Parslee-ai/car-releases/releases/download/v0.3.1/car-linux-x64-gnu.tar.gz"
-      sha256 "258428364f89d73012d76c58d19e2fed19b581f2271e98564cc2055b16c5395c"
+      url "https://github.com/Parslee-ai/car-releases/releases/download/v0.3.2/car-linux-x64-gnu.tar.gz"
+      sha256 "e100642af590010bf7169f1f87bf398a04c86ff52fa7afc971f61d418c9f3bab"
     end
   end
 
